@@ -3,6 +3,8 @@
 **Dec, 2022**\
 As a requirement for Coding Dojo Data Science w/ Python.
 
+![BM Graphic](https://www.analyticsvidhya.com/wp-content/uploads/2016/02/Comp-4.jpg)
+
 ## Comparing Regression Models
 The goal of this project is to help the retailer understand the properties of products and outlets that play crucial roles in predicting sales.  We will do this by looking at a few different models of the Outlet_Sales Data.  I tune each model to one or more hyperparameters to improve test data's fit to the model.  The models explored will be:
  - Linear Regression
