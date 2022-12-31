@@ -3,8 +3,16 @@
 **Dec, 2022**\
 As a requirement for Coding Dojo Data Science w/ Python.
 
-## Comparing Linear Regression and Decision Tree models
-The goal of this is to help the retailer understand the properties of products and outlets that play crucial roles in predicting sales.  We will do this by looking at 2 different models of the Outlet_Sales Data
+## Comparing Regression Models
+The goal of this project is to help the retailer understand the properties of products and outlets that play crucial roles in predicting sales.  We will do this by looking at a few different models of the Outlet_Sales Data.  I tune each model to one or more hyperparameters to improve test data's fit to the model.  The models explored will be:
+ - Linear Regression
+ - Dummy Regression
+ - Decision Tree
+ - Bagged Tree
+ - Random Forest
+ 
+For each of the models used, the Mean Absolute Error (MAE), Mean Standard Error (MSE), Root Mean Squared (RMSE), and the coefficient of determination (R2) will be calculated and compared with each model.
+
 
 ## Data
 Raw data found [HERE](https://drive.google.com/uc?id=1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw)
@@ -38,14 +46,14 @@ We also learned that the best selling products are:
 
 
 ## Machine Learning Models/Evaluation
-- Linear Regression
- - R^2 =
- - RSME =
-- Decision Tree
- - R^2 = 
- - RSME =
+
 The evaluation showed a preference to the ____ Machine Learning Model
 
 ## Recomendations
+Based on the evaluation of the models used, the recomendation to use a Random Forest REgression model tuned for max_depth to aid in Outlet_Sales.  This recomendation is based on the 60% fit to the test data.
+
 ## Limitations
+1) Without directly communicating with the dataset owner, it is difficult to interpret some of the features.  `Item_Visibility` for example is simply a number, does a lower or high number mean the item is more visible?  Communication with stakeholders is key to modeling and understanding datasets. 
+2) Missing data may impact the models fit to the data.  A cleaner set without as many missing values would be ideal.
+3) Each of the models used in this analysis was tuned using only 1 hyperparameter.  With more time and resources fine tuning of models might produce a better fit. Considering the resource intensive process of training models, I assume that the fit is sufficient for priliminary analysis.  
 ## Further Information
