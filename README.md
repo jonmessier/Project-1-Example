@@ -56,4 +56,6 @@ Based on the evaluation of the models used, the recomendation to use a Random Fo
 1) Without directly communicating with the dataset owner, it is difficult to interpret some of the features.  `Item_Visibility` for example is simply a number, does a lower or high number mean the item is more visible?  Communication with stakeholders is key to modeling and understanding datasets. 
 2) Missing data may impact the models fit to the data.  A cleaner set without as many missing values would be ideal.
 3) Each of the models used in this analysis was tuned using only 1 hyperparameter.  With more time and resources fine tuning of models might produce a better fit. Considering the resource intensive process of training models, I assume that the fit is sufficient for priliminary analysis.  
+
 ## Further Information
+This is my first project learning Data Science with python.  It was completed as part of my training with Coding Dojo - Data Science bootcamp.  I will continue to make small changes to this code and report as I progress in the class.
