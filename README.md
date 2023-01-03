@@ -56,7 +56,7 @@ The data was split into train and test data and evaluated using the following mo
  - Random Forest
 
 The evaluation showed a preference to the Random Forest Tree Machine Learning Model with a 60.4% fit to the test data
-![Model Comparison](https://drive.google.com/file/d/16cv5j2j08gb_ZS_bdUvmGxaIqAAOC8wB/view?usp=share_link)
+![Model Comparison](https://drive.google.com/uc?id=16cv5j2j08gb_ZS_bdUvmGxaIqAAOC8wB)
 
 
 ## Recomendations
