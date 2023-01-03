@@ -49,10 +49,10 @@ We also learned that the best selling products are:
 
 ## Machine Learning Models/Evaluation
 
-The evaluation showed a preference to the ____ Machine Learning Model
+The evaluation showed a preference to the Random Forest Tree Machine Learning Model
 
 ## Recomendations
-Based on the evaluation of the models used, the recomendation to use a Random Forest REgression model tuned for max_depth to aid in Outlet_Sales.  This recomendation is based on the 60% fit to the test data.
+Based on the evaluation of the models used, the recomendation to use a Random Forest Regression model tuned for max_depth to aid in Outlet_Sales.  This recomendation is based on the 60% fit to the test data.
 
 ## Limitations
 1) Without directly communicating with the dataset owner, it is difficult to interpret some of the features.  `Item_Visibility` for example is simply a number, does a lower or high number mean the item is more visible?  Communication with stakeholders is key to modeling and understanding datasets. 
