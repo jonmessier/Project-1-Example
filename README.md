@@ -48,8 +48,16 @@ We also learned that the best selling products are:
 
 
 ## Machine Learning Models/Evaluation
+The data was split into train and test data and evaluated using the following models:
+ - Linear Regression
+ - Dummy (Mean) regression
+ - Decision tree
+ - Bagged tree
+ - Random Forest
 
-The evaluation showed a preference to the Random Forest Tree Machine Learning Model
+The evaluation showed a preference to the Random Forest Tree Machine Learning Model with a 60.4% fit to the test data
+![Model Comparison](https://drive.google.com/uc?id=16cv5j2j08gb_ZS_bdUvmGxaIqAAOC8wB)
+
 
 ## Recomendations
 Based on the evaluation of the models used, the recomendation to use a Random Forest Regression model tuned for max_depth to aid in Outlet_Sales.  This recomendation is based on the 60% fit to the test data.
